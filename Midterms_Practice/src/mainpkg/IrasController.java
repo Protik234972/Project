@@ -156,12 +156,10 @@ public class IrasController implements Initializable {
 
     @FXML
     private void dropCourseOnClicked(ActionEvent event) {
-        String selectedCourse = courseComboBox.getValue();
-        int selectedSection = sectionComboBox.getValue();
 
         Registration registrationToRemove = null;
         for (Registration registration : register) {
-            if (registration.getCourseTitle().equals(selectedCourse) && registration.getCourseSection() == selectedSection) {
+            if (registration.getCourseTitle().equals(courseComboBox.getValue()) && registration.getCourseSection() == sectionComboBox.getValue()) {
                 registrationToRemove = registration;
                 break;
             }
