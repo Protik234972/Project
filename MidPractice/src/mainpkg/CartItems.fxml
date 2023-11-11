@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="745.0" prefWidth="1003.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="selectItemComboBox" layoutX="80.0" layoutY="56.0" onAction="#selectItemButtonOnClicked" prefHeight="31.0" prefWidth="180.0" />
+      <TextField fx:id="priceTextField" alignment="CENTER" editable="false" layoutX="80.0" layoutY="117.0" prefHeight="31.0" prefWidth="180.0" text="Price" />
+      <ComboBox fx:id="quantityComboBox" layoutX="80.0" layoutY="177.0" prefHeight="31.0" prefWidth="180.0" />
+   </children>
+</AnchorPane>

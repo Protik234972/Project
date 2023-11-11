@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MainsceneController">
+   <children>
+      <TextField fx:id="hTextField" layoutX="57.0" layoutY="21.0" />
+      <TextField fx:id="yTextField" layoutX="57.0" layoutY="81.0" />
+      <TableView fx:id="table" layoutX="51.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="hello" prefWidth="75.0" text="Helo" />
+          <TableColumn fx:id="h" prefWidth="75.0" text="hello" />
+        </columns>
+      </TableView>
+      <TextField fx:id="zTextField" layoutX="293.0" layoutY="21.0" />
+   </children>
+</AnchorPane>
